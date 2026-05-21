@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 // This resets when the server restarts.
 let currentUser = null;
 
-// Pug setup
+// Pug setup 
 app.set("view engine", "pug");
 app.set("views", path.join(__dirname, "views"));
 
