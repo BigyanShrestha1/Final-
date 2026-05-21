@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  section.page-header
+    h1 All Mystery Boxes
+    p Choose your favorite mystery box theme.
+
+  section.product-grid
+    each product in products
+      .product-card
+        .product-image
+          img(src=product.image, alt=product.name)
+
+        .product-info
+          h2= product.name
+          p.category= product.category
+          p.description= product.description
+          p.price $#{product.price}
+
+          .product-actions
+            a.button(href=`/products/${product.id}`) View Details
+            button.button.secondary.add-to-cart(
+              type="button",
+              data-id=product.id,
+              data-name=product.name,
+              data-price=product.price,
+              data-image=product.image
+            ) Add to Cart

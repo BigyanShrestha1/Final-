@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  section.product-detail
+    div.detail-image
+      img(src=product.image, alt=product.name)
+
+    div.detail-info
+      h1= product.name
+      p.category= product.category
+      p.description= product.description
+      p.price $#{product.price}
+
+      h3 What might be inside?
+      ul
+        li Surprise themed items
+        li Collectibles
+        li Stickers or accessories
+        li Bonus mystery gift
+
+      div.product-actions
+        button.button.add-to-cart(
+          type="button",
+          data-id=product.id,
+          data-name=product.name,
+          data-price=product.price,
+          data-image=product.image
+        ) Add to Cart
+        a.button.secondary(href="/products") Back to Products

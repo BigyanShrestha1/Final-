@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  section.page-header
+    h1 Shopping Cart
+    p Review your mystery boxes before checkout.
+
+  section.cart-page
+    div.cart-items#cartItems
+      p Your cart is empty.
+
+    div.cart-summary
+      h2 Order Summary
+      p
+        strong Subtotal:
+        |  
+        span#cartSubtotal $0.00
+      p
+        strong Shipping:
+        |  
+        span#cartShipping $0.00
+      h3
+        | Total: 
+        span#cartTotal $0.00
+
+      a.button(href="/checkout") Proceed to Checkout
+      button.remove-button#clearCart(type="button") Clear Cart

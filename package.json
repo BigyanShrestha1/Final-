@@ -1,0 +1,23 @@
+{
+    "name": "mystery-box-store",
+    "version": "1.0.0",
+    "description": "Mystery box ecommerce website using Express and Pug",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "node --watch server.js"
+    },
+    "keywords": [
+      "mystery-box",
+      "ecommerce",
+      "express",
+      "pug"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^5.1.0",
+      "pug": "^3.0.3",
+      "sqlite3": "^5.1.7"
+    }
+  }

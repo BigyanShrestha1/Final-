@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  section.page-header
+    h1 Register
+    p Create an account for faster checkout.
+
+  section.form-container
+    form(action="/register", method="POST")
+      label(for="name") Full Name
+      input(type="text", id="name", name="name", required)
+
+      label(for="email") Email
+      input(type="email", id="email", name="email", required)
+
+      label(for="password") Password
+      input(type="password", id="password", name="password", required)
+
+      label(for="confirmPassword") Confirm Password
+      input(type="password", id="confirmPassword", name="confirmPassword", required)
+
+      button.button(type="submit") Register
+
+    p.form-link
+      | Already have an account? 
+      a(href="/login") Login here

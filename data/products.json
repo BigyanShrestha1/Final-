@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "name": "Gaming Mystery Box",
+      "price": 29.99,
+      "category": "Gaming",
+      "image": "/images/gaming-box.jpg",
+      "description": "A surprise box filled with gaming-themed items, stickers, accessories, collectibles, and small gaming desk items."
+    },
+    {
+      "id": 2,
+      "name": "Anime Mystery Box",
+      "price": 24.99,
+      "category": "Anime",
+      "image": "/images/anime-box.jpg",
+      "description": "A fun mystery box for anime fans with keychains, stickers, mini posters, cute items, and surprise collectibles."
+    },
+    {
+      "id": 3,
+      "name": "Self-Care Mystery Box",
+      "price": 34.99,
+      "category": "Self-Care",
+      "image": "/images/self-care-box.jpg",
+      "description": "A relaxing box with self-care surprises like candles, skincare samples, bath items, cozy socks, and calming gifts."
+    },
+    {
+      "id": 4,
+      "name": "Snack Mystery Box",
+      "price": 19.99,
+      "category": "Snacks",
+      "image": "/images/snack-box.jpg",
+      "description": "A tasty mystery box full of surprise snacks, candy, chips, drinks, and treats from different flavors and themes."
+    },
+    {
+      "id": 5,
+      "name": "Tech Mystery Box",
+      "price": 39.99,
+      "category": "Tech",
+      "image": "/images/tech-box.jpg",
+      "description": "A mystery box with useful tech accessories, phone gadgets, cables, desk tools, and small electronic surprises."
+    },
+    {
+      "id": 6,
+      "name": "Premium Mystery Box",
+      "price": 59.99,
+      "category": "Premium",
+      "image": "/images/premium-box.jpg",
+      "description": "Our biggest mystery box with higher-value surprises from multiple categories, including gaming, tech, snacks, and collectibles."
+    },
+    {
+      "id": 7,
+      "name": "Beauty Mystery Box",
+      "price": 32.99,
+      "category": "Beauty",
+      "image": "/images/beauty-box.jpg",
+      "description": "A beauty-themed mystery box with makeup samples, skincare items, hair accessories, and other fun beauty surprises."
+    },
+    {
+      "id": 8,
+      "name": "Pet Mystery Box",
+      "price": 27.99,
+      "category": "Pets",
+      "image": "/images/pet-box.jpg",
+      "description": "A surprise box for pets with toys, treats, accessories, and fun items for cats or dogs."
+    }
+  ]

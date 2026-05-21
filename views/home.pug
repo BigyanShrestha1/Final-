@@ -1,0 +1,62 @@
+extends layout
+
+block content
+  section.hero.home-hero
+    .hero-content
+      .hero-text
+        p.hero-badge New mystery boxes added weekly
+        h1 Unbox the Surprise
+        p Discover fun mystery boxes for gaming, anime, self-care, snacks, tech, and more.
+        .hero-buttons
+          a.button(href="/products") Browse Products
+          a.button.secondary(href="/cart") View Cart
+
+      .hero-image
+        img(src="/images/gaming-box.jpg", alt="Gaming Mystery Box")
+
+  section.home-section
+    h2 Featured Mystery Boxes
+    p.section-subtitle Pick a theme and let the surprise begin.
+
+    .featured-grid
+      .feature-card
+        img(src="/images/gaming-box.jpg", alt="Gaming Mystery Box")
+        h3 Gaming Box
+        p Collectibles, stickers, accessories, and gamer surprises.
+        a.button(href="/products") Shop Now
+
+      .feature-card
+        img(src="/images/anime-box.jpg", alt="Anime Mystery Box")
+        h3 Anime Box
+        p Cute anime items, keychains, posters, and collectibles.
+        a.button(href="/products") Shop Now
+
+      .feature-card
+        img(src="/images/self-care-box.jpg", alt="Self-Care Mystery Box")
+        h3 Self-Care Box
+        p Candles, cozy items, skincare samples, and relaxing gifts.
+        a.button(href="/products") Shop Now
+
+  section.how-it-works
+    h2 How It Works
+
+    .steps-grid
+      .step-card
+        span.step-number 1
+        h3 Choose a Theme
+        p Pick a box that matches your interests.
+
+      .step-card
+        span.step-number 2
+        h3 Add to Cart
+        p Add your favorite mystery box and checkout.
+
+      .step-card
+        span.step-number 3
+        h3 Get Surprised
+        p Open your box and enjoy the mystery items inside.
+
+  section.sale-banner
+    h2 Limited Time Offer
+    p Free shipping on orders over $50.
+    a.button(href="/products") Start Shopping

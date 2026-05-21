@@ -1,0 +1,39 @@
+extends layout
+
+block content
+  section.page-header
+    h1 User Profile
+    p Welcome back to your Mystery Box account.
+
+  section.profile-card
+    h2 Hello, #{user.name}
+
+    p
+      strong Email:
+      |  #{user.email}
+
+    p
+      strong Member Since:
+      |  January 2026
+
+    p
+      strong Favorite Theme:
+      |  Anime
+
+    h3 Recent Orders
+
+    .order-box
+      p
+        strong Order #1001
+      p Item: Gaming Mystery Box
+      p Status: Processing
+
+    .order-box
+      p
+        strong Order #1002
+      p Item: Anime Mystery Box
+      p Status: Delivered
+
+    .profile-actions
+      a.button(href="/products") Shop More Boxes
+      a.button.secondary(href="/logout") Logout
