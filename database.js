@@ -43,7 +43,7 @@ db.serialize(() => {
       );
 
       insert.run(
-        "Self-Care Mystery",
+        "Self-Care Mystery Box",
         34.99,
         "Self-Care",
         "/images/self-care-box.jpg",
@@ -72,6 +72,54 @@ db.serialize(() => {
         "Premium",
         "/images/premium-box.jpg",
         "Our biggest mystery box with higher-value surprises from multiple categories."
+      );
+
+      insert.run(
+        "Beauty Mystery Box",
+        32.99,
+        "Beauty",
+        "/images/beauty-box.jpg",
+        "A beauty-themed mystery box with makeup samples, skincare items, hair accessories, and beauty surprises."
+      );
+
+      insert.run(
+        "Pet Mystery Box",
+        27.99,
+        "Pets",
+        "/images/pet-box.jpg",
+        "A surprise box for pets with toys, treats, accessories, and fun items for cats or dogs."
+      );
+
+      insert.run(
+        "Book Lover Mystery Box",
+        22.99,
+        "Books",
+        "/images/book-box.jpg",
+        "A cozy mystery box with bookmarks, bookish stickers, reading accessories, and surprise items."
+      );
+
+      insert.run(
+        "Fitness Mystery Box",
+        31.99,
+        "Fitness",
+        "/images/fitness-box.jpg",
+        "A mystery box with workout accessories, wellness items, and fitness-themed surprises."
+      );
+
+      insert.run(
+        "Art Mystery Box",
+        28.99,
+        "Art",
+        "/images/art-box.jpg",
+        "A creative mystery box with art supplies, stickers, sketch items, and fun creative tools."
+      );
+
+      insert.run(
+        "Movie Night Mystery Box",
+        26.99,
+        "Movies",
+        "/images/movie-box.jpg",
+        "A fun movie night mystery box with snacks, themed items, cozy surprises, and entertainment accessories."
       );
 
       insert.finalize();
